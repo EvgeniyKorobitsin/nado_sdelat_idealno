@@ -14,16 +14,16 @@ video {
   max-width: 744px;
   margin: 0 auto;
   padding-top: 60px;
-  opacity: 0.9999999;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 116px;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 4.07px;
+  letter-spacing: .03em;
   text-align: center;
   text-transform: uppercase;
+  z-index: 0;
 }
 
 .page__heading::after {
@@ -32,6 +32,7 @@ video {
 
 .page__heading:hover {
   color: #4c4c4c;
+  cursor: default;
 }
 
 .page__heading:hover::before {
@@ -40,13 +41,13 @@ video {
   position: absolute;
   top: 182px;
   right: 22px;
-  border: 2px solid #000;
+  border: 2px solid currentColor;
   border-radius: 20px;
   padding: 36px 44px;
   box-shadow: 0px 12px 0px 0px rgba(0, 0, 0, 1);
 
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 35px;
   font-style: normal;
