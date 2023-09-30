@@ -10,6 +10,7 @@ video {
 }
 
 .page__heading {
+  z-index: 0;
   width: 100%;
   max-width: 744px;
   margin: 0 auto;
@@ -23,7 +24,6 @@ video {
   letter-spacing: .03em;
   text-align: center;
   text-transform: uppercase;
-  z-index: 0;
 }
 
 .page__heading::after {

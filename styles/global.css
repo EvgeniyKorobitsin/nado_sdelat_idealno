@@ -9,15 +9,15 @@ html {
 }
 
 body {
-  display: flex;
-  background: lightgray 50%;
   position: relative;
   z-index: 1;
+  display: flex;
   min-width: 800px;
   max-width: 1600px;
   height: 100%;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  background: lightgray 50%;
 }
 
 body::before {
